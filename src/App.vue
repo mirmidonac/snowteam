@@ -2,7 +2,9 @@
   <div id="app">
     <Header/>
     <Carousel/>
+     <AboutUs/>
     <Cards/>
+    <Membership/>
   </div>
 </template>
 
@@ -10,13 +12,17 @@
 import Header from './components/Header.vue'
 import Carousel from './components/Carousel.vue'
 import Cards from './components/Cards.vue'
+import AboutUs from './components/AboutUs.vue'
+import Membership from './components/Membership.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     Carousel,
-    Cards
+    AboutUs,
+    Cards,
+    Membership
   }
 }
 </script>
@@ -27,6 +33,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #2c3e50;
 }
 </style>
